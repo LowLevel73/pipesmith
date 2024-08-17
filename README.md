@@ -16,7 +16,7 @@
 
 Here’s a basic example of how to use the `pipesmith` class to create and validate function combinations.
 
-In this example, we aim to create a pipeline with three steps: a vectorizer, a clusterer, and a sampler. The "top_sampler" requires the presence of both a vectorizer and a clusterer, while the "random_sampler" can function independently, without requiring any prior steps.
+In this example, we aim to create a pipeline with three steps: a vectorizer, a clusterer, and a sampler. The "tobottomp_sampler" requires the presence of both a vectorizer and a clusterer, while the "random_sampler" can function independently, without requiring any prior steps.
 
 ```python
 from pipesmith import pipesmith
