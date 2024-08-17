@@ -104,6 +104,14 @@ The above script will generate and print the following valid combinations of fun
   - **'skip_if_label':** Skips certain steps if a specific label is present on a function.
   - **'require_if_present':** Requires certain steps if another step is present.
 
+
+### Output Structure
+
+The output from the `generate_combinations` method is a list of tuples, where each tuple represents a valid combination of functions. Each element in the tuple corresponds to a function (or None if a step is skipped) from the respective step in the pipeline.
+
+Once you have the valid combinations, you can loop through them and execute each combination in sequence.
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
