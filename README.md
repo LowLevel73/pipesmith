@@ -108,6 +108,3 @@ The above script will generate and print the following valid combinations of fun
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss changes.
