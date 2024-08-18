@@ -3,6 +3,7 @@
 # Licensed under the MIT License (see LICENSE for details)
 
 class pipesmith:
+    __version__ = "1.0.0"
     def __init__(self, *function_steps, conditions=None):
         """
         Initialize the pipesmith object with steps and conditions.

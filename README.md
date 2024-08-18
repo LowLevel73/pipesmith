@@ -2,6 +2,14 @@
 
 **pipesmith** is a simple Python utility class designed to help you create and validate pipelines by combining different callable objects or steps, each potentially labeled with metadata. It is designed to support any process that involves multiple sequential steps where specific conditions must be met.
 
+Once you have the valid combinations, you can loop through them and execute each combination in sequence.
+
+
+### Version
+
+Current version: **1.0.0**
+
+
 ## Features
 
 - **Flexible Pipeline Construction:** Combine different callable objects into valid pipelines based on custom conditions.
@@ -108,8 +116,6 @@ The above script will generate and print the following valid combinations of fun
 ### Output Structure
 
 The output from the `generate_combinations` method is a list of tuples, where each tuple represents a valid combination of callable objects. Each element in the tuple corresponds to a callable object (or None if a step is skipped) from the respective step in the pipeline.
-
-Once you have the valid combinations, you can loop through them and execute each combination in sequence.
 
 
 ## License
