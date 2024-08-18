@@ -4,7 +4,7 @@
 
 The steps are combined using the Cartesian product, similar to `itertools.product`. Afterward, combinations that do not meet the user-defined conditions are filtered out.
 
-Once you have the valid combinations, you can loop through them and execute each combination in sequence.
+**pipesmith** provides a list of valid combinations of steps, which you can then loop through and execute in your own code.
 
 
 ### Version
