@@ -106,7 +106,8 @@ The above script will generate and print the following valid combinations of fun
   - **Partial Functions**: You can use `functools.partial` to create functions with pre-filled arguments, like `[partial(some_function, multiplier=2)]`.
   - **Class Methods**: Methods from class instances can be used as steps, such as `[my_instance.method]`.
   - **Callable Objects**: Instances of classes that implement the `__call__` method can be used directly, like `[callable_instance]`.
-  - **Class Instances with Methods**: You can pass instances of classes where the method is invoked later, such as `[KMeansClusterer(num_clusters=100)]`.
+  - **Class Instances with Methods**: You can pass instances of classes where the method is invoked later or the instance itself is callable through a `__call__` method, such as `[KMeansClusterer(num_clusters=100)]`.
+
 
 
 - **conditions:** A list of dictionaries defining conditions for valid combinations. Conditions can include:
