@@ -91,12 +91,12 @@ The above script will generate and print the following valid combinations of fun
 
   These callable objects can include functions, class methods, callable instances, or other similar entities. For example:
 
-  1. **Functions**: Standard or lambda functions can be used, such as `[some_function]` or `[lambda x: x * 2]`.
-  2. **External Library Functions**: Functions or methods from third-party libraries can be included, such as `[vectorizer.fit_transform]`.
-  3. **Partial Functions**: You can use `functools.partial` to create functions with pre-filled arguments, like `[partial(some_function, multiplier=2)]`.
-  4. **Class Methods**: Methods from class instances can be used as steps, such as `[my_instance.method]`.
-  5. **Callable Objects**: Instances of classes that implement the `__call__` method can be used directly, like `[callable_instance]`.
-  6. **Class Instances with Methods**: You can pass instances of classes where the method is invoked later, such as `[KMeansClusterer(num_clusters=100)]`.
+  - **Functions**: Standard or lambda functions can be used, such as `[some_function]` or `[lambda x: x * 2]`.
+  - **External Library Functions**: Functions or methods from third-party libraries can be included, such as `[vectorizer.fit_transform]`.
+  - **Partial Functions**: You can use `functools.partial` to create functions with pre-filled arguments, like `[partial(some_function, multiplier=2)]`.
+  - **Class Methods**: Methods from class instances can be used as steps, such as `[my_instance.method]`.
+  - **Callable Objects**: Instances of classes that implement the `__call__` method can be used directly, like `[callable_instance]`.
+  - **Class Instances with Methods**: You can pass instances of classes where the method is invoked later, such as `[KMeansClusterer(num_clusters=100)]`.
 
 
 - **conditions:** A list of dictionaries defining conditions for valid combinations. Conditions can include:
