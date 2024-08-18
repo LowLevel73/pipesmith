@@ -1,6 +1,8 @@
 # pipesmith
 
-**pipesmith** is a simple Python utility class designed to help you create and validate pipelines by combining different callable objects or steps, each potentially labeled with metadata. It is designed to support any process that involves multiple sequential steps where specific conditions must be met.
+**pipesmith** is a simple Python utility class designed to help you create and validate pipelines by combining different callable objects or steps, each potentially labeled with metadata.
+
+The steps are combined using the Cartesian product, similar to `itertools.product`. Afterward, combinations that do not meet the user-defined conditions are filtered out.
 
 Once you have the valid combinations, you can loop through them and execute each combination in sequence.
 
