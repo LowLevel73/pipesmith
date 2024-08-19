@@ -9,7 +9,7 @@ The steps are combined using the Cartesian product, similar to `itertools.produc
 
 ### Version
 
-Current version: **1.0.0**
+Current version: **1.1.0**
 
 
 ## Features
@@ -118,6 +118,15 @@ The above script will generate and print the following valid combinations of fun
 ### Output Structure
 
 The output from the `generate_combinations` method is a list of tuples, where each tuple represents a valid combination of callable objects. Each element in the tuple corresponds to a callable object (or None if a step is skipped) from the respective step in the pipeline.
+
+
+## Changelog
+
+### [v1.1.0] - 2024-08-18
+- Added input validation feature.
+
+### [v1.0.0] - 2024-08-17
+- First version.
 
 
 ## License

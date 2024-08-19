@@ -3,7 +3,7 @@
 # Licensed under the MIT License (see LICENSE for details)
 
 class pipesmith:
-    __version__ = "1.0.0"
+    __version__ = "1.1.0"
 
     def __init__(self, *steps, conditions=None):
         """
